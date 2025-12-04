@@ -47,7 +47,8 @@ public class ValidateRunner {
 		} else {
 			System.out.println("This board is valid.");
 		}
-		
+
+		//Check if board is balanced
 		if (Validate.balanced(board)) {
 			System.out.println("This board is balanced.");
 		} else {
