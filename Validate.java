@@ -54,7 +54,7 @@ public class Validate {
 	}
 	
 	
-	
+	//Checks for separation of ships (two ships per column and row)
 	public static boolean balanced(String[][] board) {
 		String row = "0";
 		for (int i = 0; i < board.length; i++) {
